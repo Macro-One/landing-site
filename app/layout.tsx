@@ -13,8 +13,8 @@ const kanit = Kanit({
 });
 
 export const metadata: Metadata = {
-    title: 'Macro.one | Infrastructure for the Intelligence Age',
-    description: 'Infrastructure for the Intelligence Age. We build the physical and digital foundations for Artificial Intelligence.',
+    title: 'Macro.One | The Asset Manager for the Age of AI',
+    description: 'Most funds buy the hype. We buy the physics. We invest in the "Picks & Shovels" of the AI economy.',
 };
 
 export default function RootLayout({
