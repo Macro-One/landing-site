@@ -51,11 +51,11 @@ export const CinematicHero: React.FC = () => {
                     transition={{ duration: 1, delay: 1 }}
                     className="flex flex-col items-center gap-8 max-w-2xl mx-auto"
                 >
-                    <p className="text-xl md:text-2xl text-white/80 font-light leading-relaxed">
+                    <p className="text-xl md:text-2xl text-macro-cream/80 font-light leading-relaxed">
                         Most funds buy the hype. We buy the physics.
                     </p>
 
-                    <button className="px-8 py-3 border border-white/20 text-white hover:bg-white/10 rounded-full transition-all uppercase tracking-widest text-sm font-medium">
+                    <button className="px-8 py-3 border border-macro-cream/20 text-macro-cream hover:bg-macro-cream/10 rounded-full transition-all uppercase tracking-widest text-sm font-medium">
                         View the Infrastructure
                     </button>
                 </motion.div>
@@ -68,7 +68,7 @@ export const CinematicHero: React.FC = () => {
                 transition={{ delay: 2, duration: 1 }}
                 className="absolute bottom-12 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-2"
             >
-                <span className="text-xs uppercase tracking-[0.2em] text-neutral-400">Explore the Stack</span>
+                <span className="text-xs uppercase tracking-[0.2em] text-neutral-400">Learn more</span>
                 <ChevronDown className="w-6 h-6 text-macro-orange animate-bounce" />
             </motion.div>
         </section >

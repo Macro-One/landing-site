@@ -61,7 +61,7 @@ export const TheEcosystem: React.FC = () => {
                     <span className="text-macro-orange text-xs font-bold tracking-[0.2em] uppercase mb-4 block">
                         The Ecosystem
                     </span>
-                    <h2 className="text-4xl md:text-5xl font-bold text-white">
+                    <h2 className="text-4xl md:text-5xl font-bold text-macro-cream">
                         The Four Pillars.
                     </h2>
                 </div>
@@ -76,13 +76,13 @@ export const TheEcosystem: React.FC = () => {
                                 <div className="text-white/50 mb-6 group-hover:text-macro-orange transition-colors">
                                     {pillar.icon}
                                 </div>
-                                <h3 className="text-2xl font-bold text-white mb-2 uppercase tracking-tight">{pillar.title}</h3>
+                                <h3 className="text-2xl font-bold text-macro-cream mb-2 uppercase tracking-tight">{pillar.title}</h3>
                                 <p className="text-neutral-500 font-medium mb-8">{pillar.subtext}</p>
                             </div>
 
                             <div className="relative z-10 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
                                 <div className="w-12 h-px bg-macro-orange mb-4" />
-                                <p className="text-white/80 text-sm leading-relaxed max-w-sm">
+                                <p className="text-macro-cream/80 text-sm leading-relaxed max-w-sm">
                                     {pillar.detail}
                                 </p>
                             </div>

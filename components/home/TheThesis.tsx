@@ -41,7 +41,7 @@ export const TheThesis: React.FC = () => {
                                     <path d="M5.6 5.6l12.8 12.8" opacity="0.5" />
                                     <path d="M18.4 5.6L5.6 18.4" opacity="0.5" />
                                 </svg>
-                                <div className="text-2xl font-bold text-white">Michelin <span className="text-neutral-600 text-lg font-normal">(Not Ford)</span></div>
+                                <div className="text-2xl font-bold text-macro-cream">Michelin <span className="text-neutral-600 text-lg font-normal">(Not Ford)</span></div>
                             </div>
                         </motion.div>
 
@@ -65,7 +65,7 @@ export const TheThesis: React.FC = () => {
                                     <path d="M9 10v4" />
                                     <path d="M12 2v8" />
                                 </svg>
-                                <div className="text-2xl font-bold text-white">Cisco <span className="text-neutral-600 text-lg font-normal">(Not Yahoo)</span></div>
+                                <div className="text-2xl font-bold text-macro-cream">Cisco <span className="text-neutral-600 text-lg font-normal">(Not Yahoo)</span></div>
                             </div>
                         </motion.div>
 
@@ -90,14 +90,14 @@ export const TheThesis: React.FC = () => {
                                     <circle cx="6" cy="15" r="0.5" fill="currentColor" />
                                     <circle cx="6" cy="9" r="0.5" fill="currentColor" />
                                 </svg>
-                                <div className="text-2xl font-bold text-white">Macro.One <span className="text-macro-orange text-lg font-normal">(The Layer 0)</span></div>
+                                <div className="text-2xl font-bold text-macro-cream">Macro.One <span className="text-macro-orange text-lg font-normal">(The Layer 0)</span></div>
                             </div>
                         </motion.div>
                     </div>
 
                     <div className="mt-12 text-center md:text-left">
                         <p className="text-lg text-neutral-400 font-light">
-                            We invest in the <span className="text-white font-medium">'Picks & Shovels'</span> of the AI economy.
+                            We invest in the <span className="text-macro-cream font-medium">'Picks & Shovels'</span> of the AI economy.
                         </p>
                     </div>
                 </div>

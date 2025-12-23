@@ -12,12 +12,12 @@ export const TheBleedingEdge: React.FC = () => {
                     <div className="inline-block px-3 py-1 border border-macro-orange/50 rounded-full text-macro-orange text-xs font-bold uppercase tracking-widest mb-6">
                         Proprietary IP
                     </div>
-                    <h2 className="text-4xl md:text-5xl font-bold text-white mb-8">
+                    <h2 className="text-4xl md:text-5xl font-bold text-macro-cream mb-8">
                         We Don't Just Buy. <br />
                         <span className="text-neutral-500">We Build.</span>
                     </h2>
                     <p className="text-neutral-400 text-lg leading-relaxed mb-8">
-                        Traditional infrastructure is too slow for AI. Our proprietary modular design deploys <span className="text-white font-bold">80% faster</span> and <span className="text-white font-bold">30-50% cheaper</span> than the industry standard.
+                        Traditional infrastructure is too slow for AI. Our proprietary modular design deploys <span className="text-macro-cream font-bold">80% faster</span> and <span className="text-macro-cream font-bold">30-50% cheaper</span> than the industry standard.
                     </p>
                 </div>
 

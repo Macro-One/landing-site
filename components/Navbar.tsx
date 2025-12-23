@@ -90,7 +90,7 @@ export const Navbar: React.FC = () => {
                         <Link
                           key={subLink.name}
                           href={subLink.path}
-                          className={`block px-6 py-3 text-sm text-slate-400 hover:text-white hover:bg-brand-900/20 transition-colors ${idx !== link.dropdown!.length - 1 ? 'border-b border-white/5' : ''
+                          className={`block px-6 py-3 text-sm text-slate-400 hover:text-macro-cream hover:bg-brand-900/20 transition-colors ${idx !== link.dropdown!.length - 1 ? 'border-b border-white/5' : ''
                             }`}
                         >
                           {subLink.name}
@@ -138,7 +138,7 @@ export const Navbar: React.FC = () => {
 
         {/* Mobile Toggle */}
         <button
-          className="md:hidden text-white"
+          className="md:hidden text-macro-cream"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
           {isMobileMenuOpen ? <Icons.X /> : <Icons.Menu />}

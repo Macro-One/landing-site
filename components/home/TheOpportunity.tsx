@@ -15,7 +15,7 @@ export const TheOpportunity: React.FC = () => {
                     <span className="text-macro-orange text-xs font-bold tracking-[0.2em] uppercase mb-4 block">
                         The Opportunity
                     </span>
-                    <h2 className="text-4xl md:text-5xl font-bold text-white mb-8">
+                    <h2 className="text-4xl md:text-5xl font-bold text-macro-cream mb-8">
                         The $116 Billion Deficit.
                     </h2>
                     <p className="text-neutral-400 leading-relaxed mb-6">
@@ -23,7 +23,7 @@ export const TheOpportunity: React.FC = () => {
                     </p>
                     <div className="bg-[#111] p-6 border border-white/5 rounded-lg">
                         <div className="text-xs text-neutral-500 uppercase tracking-widest mb-2">Insight</div>
-                        <p className="text-white font-medium">
+                        <p className="text-macro-cream font-medium">
                             "Mexico requires US$23.2B annually in investment. <br />
                             <span className="text-macro-orange">Current Status: Severely Underbuilt.</span>"
                         </p>
@@ -90,7 +90,7 @@ export const TheOpportunity: React.FC = () => {
                             animate={{ opacity: hoveredBar === 'mexico' ? 1 : 0 }}
                             className="absolute -top-32 left-1/2 -translate-x-1/2 w-48 bg-black border border-macro-orange p-3 rounded text-center z-10"
                         >
-                            <span className="text-xs text-white">4x Capacity Gap vs Peers</span>
+                            <span className="text-xs text-macro-cream">4x Capacity Gap vs Peers</span>
                         </motion.div>
                     </motion.div>
 

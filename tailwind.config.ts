@@ -20,7 +20,7 @@ const config: Config = {
                 },
                 macro: {
                     orange: '#FF5F00',
-                    cream: '#F5F5F0',
+                    cream: '#DED5B6',
                     charcoal: '#111111',
                     gray: '#222222',
                     'gray-light': '#888888',
