@@ -7,6 +7,8 @@ import { TheOpportunity } from '@/components/home/TheOpportunity';
 import { TheEcosystem } from '@/components/home/TheEcosystem';
 import { TheAuthority } from '@/components/home/TheAuthority';
 import { TheBleedingEdge } from '@/components/home/TheBleedingEdge';
+import { WhyMacro } from '@/components/home/WhyMacro';
+import { TheStrategies } from '@/components/home/TheStrategies';
 
 export default function HomePage() {
     return (
@@ -14,9 +16,11 @@ export default function HomePage() {
             <CinematicHero />
             <TheThesis />
             <TheOpportunity />
+            <TheStrategies />
             <TheEcosystem />
             <TheAuthority />
             <TheBleedingEdge />
+            <WhyMacro />
         </main>
     );
 }
