@@ -13,7 +13,7 @@ export const CinematicHero: React.FC = () => {
         <section className="relative h-screen w-full overflow-hidden bg-black text-white">
             {/* Background Video Layer */}
             <motion.div
-                style={{ scale, opacity }}
+                style={{ opacity }}
                 className="absolute inset-0 z-0"
             >
                 <div className="absolute inset-0 bg-black/40 z-10" /> {/* Overlay using opacity */}
@@ -40,8 +40,8 @@ export const CinematicHero: React.FC = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, ease: "easeOut", delay: 0.5 }}
                 >
-                    <h1 className="text-5xl md:text-7xl lg:text-9xl font-bold tracking-tighter mb-6 uppercase">
-                        The asset manager <br /> for the <span className="text-macro-orange font-extrabold tracking-tight">age of AI</span>
+                    <h1 className="text-5xl md:text-7xl lg:text-9xl font-bold tracking-tighter mb-6 text-macro-cream">
+                        The Asset Manager for the Age of AI<span className="text-macro-orange">.</span>
                     </h1>
                 </motion.div>
 
@@ -49,12 +49,15 @@ export const CinematicHero: React.FC = () => {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 1, delay: 1 }}
-                    className="max-w-2xl mx-auto"
+                    className="flex flex-col items-center gap-8 max-w-2xl mx-auto"
                 >
-                    <p className="text-xl md:text-2xl text-white/70 font-light leading-relaxed">
-                        The world's first vertically integrated AI partner. <br />
-                        Unifying Energy, Infrastructure, Compute, and Code.
+                    <p className="text-xl md:text-2xl text-white/80 font-light leading-relaxed">
+                        Most funds buy the hype. We buy the physics.
                     </p>
+
+                    <button className="px-8 py-3 border border-white/20 text-white hover:bg-white/10 rounded-full transition-all uppercase tracking-widest text-sm font-medium">
+                        View the Infrastructure
+                    </button>
                 </motion.div>
             </div>
 

@@ -25,7 +25,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={`${kanit.variable} font-sans min-h-screen bg-[#111111] text-neutral-100 selection:bg-[#ff5f00] selection:text-white`}>
-                <div className="bg-noise min-h-screen flex flex-col">
+                <div className="min-h-screen flex flex-col">
                     <Navbar />
                     <main>{children}</main>
                     <Footer />
