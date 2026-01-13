@@ -24,6 +24,11 @@ const config: Config = {
                     charcoal: '#111111',
                     gray: '#222222',
                     'gray-light': '#888888',
+                    sand: '#F2F0E9',
+                    paper: '#F7F5F0',
+                    'paper-border': '#D6D3CD',
+                    ink: '#1A1A1A',
+                    graphite: '#4A4A4A',
                 },
                 slate: {
                     800: '#222222',

@@ -3,11 +3,13 @@
 @tailwind utilities;
 
 @layer base {
+
+  html,
   body {
-    background-color: #111111;
-    /* macro-charcoal */
-    color: #DED5B6;
-    /* macro-cream */
+    background-color: #F2F0E9 !important;
+    /* macro-sand - forced with !important */
+    color: #1A1A1A !important;
+    /* macro-ink */
     overflow-x: hidden;
   }
 }

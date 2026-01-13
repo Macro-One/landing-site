@@ -55,34 +55,34 @@ const pillars = [
 
 export const TheEcosystem: React.FC = () => {
     return (
-        <section className="bg-[#111] py-32 px-6">
+        <section className="bg-transparent py-32 px-6">
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-16">
                     <span className="text-macro-orange text-xs font-bold tracking-[0.2em] uppercase mb-4 block">
                         The Ecosystem
                     </span>
-                    <h2 className="text-4xl md:text-5xl font-bold text-macro-cream">
+                    <h2 className="text-4xl md:text-5xl font-bold text-macro-ink">
                         The Four Pillars.
                     </h2>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {pillars.map((pillar, index) => (
-                        <div key={index} className="group relative bg-[#0a0a0a] border border-white/5 p-12 hover:border-macro-orange/50 transition-all duration-300 overflow-hidden min-h-[300px] flex flex-col justify-between">
+                        <div key={index} className="group relative bg-macro-paper border border-macro-paper-border p-12 hover:border-macro-orange/50 transition-all duration-300 overflow-hidden min-h-[300px] flex flex-col justify-between shadow-sm">
                             {/* Background Hover Effect */}
                             <div className="absolute inset-0 bg-macro-orange/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
                             <div className="relative z-10">
-                                <div className="text-white/50 mb-6 group-hover:text-macro-orange transition-colors">
+                                <div className="text-macro-ink/50 mb-6 group-hover:text-macro-orange transition-colors">
                                     {pillar.icon}
                                 </div>
-                                <h3 className="text-2xl font-bold text-macro-cream mb-2 uppercase tracking-tight">{pillar.title}</h3>
-                                <p className="text-neutral-500 font-medium mb-8">{pillar.subtext}</p>
+                                <h3 className="text-2xl font-bold text-macro-ink mb-2 uppercase tracking-tight">{pillar.title}</h3>
+                                <p className="text-macro-graphite font-medium mb-8">{pillar.subtext}</p>
                             </div>
 
                             <div className="relative z-10 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
                                 <div className="w-12 h-px bg-macro-orange mb-4" />
-                                <p className="text-macro-cream/80 text-sm leading-relaxed max-w-sm">
+                                <p className="text-macro-ink/80 text-sm leading-relaxed max-w-sm">
                                     {pillar.detail}
                                 </p>
                             </div>
